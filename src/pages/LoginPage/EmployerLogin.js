@@ -24,7 +24,6 @@ function EmployerLogin() {
   const {
     register,
     handleSubmit,
-    control,
     formState: { errors },
     getValues,
   } = useForm();
